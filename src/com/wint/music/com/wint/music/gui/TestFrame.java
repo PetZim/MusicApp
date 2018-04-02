@@ -6,8 +6,8 @@ public class TestFrame {
 
     public TestFrame() {
         JFrame frame = new JFrame();
-        JButton button = new JButton("Yes");
-        frame.getContentPane().add(button);
+        MyDrawPanel p = new MyDrawPanel();
+        frame.getContentPane().add(p);
         frame.setSize(300, 300);
         frame.setVisible(true);
     }
